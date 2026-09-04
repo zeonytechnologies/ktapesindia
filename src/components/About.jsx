@@ -1,5 +1,6 @@
 import React from 'react';
 import { CheckCircle2 } from 'lucide-react';
+import aboutImg from '../assets/img/image copy 4.png';
 
 const About = () => {
   const features = [
@@ -26,7 +27,7 @@ const About = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-orange-100 transform translate-x-4 translate-y-4 rounded-2xl -z-10"></div>
             <img 
-              src="https://images.unsplash.com/photo-1574689049596-1e674fc2e75d?q=80&w=1000&auto=format&fit=crop" 
+              src={aboutImg} 
               alt="Industrial Tape Manufacturing" 
               className="rounded-2xl shadow-xl w-full h-[500px] object-cover"
             />
